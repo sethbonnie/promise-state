@@ -2,18 +2,11 @@
   "name": "promise-state",
   "version": "0.0.1",
   "scripts": {
-    "test": "mocha --colors --require babel-core/register ./test.js"
+    "test": "mocha --colors ./test.js"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
     "chai": "^4.1.2",
-    "eslint": "^4.8.0",
-    "eslint-config-airbnb": "^15.1.0",
     "mocha": "^4.0.0"
   },
-  "dependencies": {
-    "user": "0.0.0"
-  }
+  "dependencies": {}
 }
